@@ -1,0 +1,31 @@
+.webpage{
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #313131;
+}
+
+.heading{
+    margin-top: 10vh;
+    font-size: 4vw;
+    font-weight: 600;
+    letter-spacing: 0.06vw;
+}
+
+.container{
+    
+  width: 80%;
+  height: fit-content;
+  min-height: 100vh;
+  margin-top: 10vh;
+  display: grid;
+  
+  grid-template-columns: repeat(2, 40vw);
+justify-content: center;
+gap: 5vw;
+    
+}

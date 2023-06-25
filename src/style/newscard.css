@@ -1,0 +1,48 @@
+.box{
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    padding: 0.5vh;
+    margin-bottom: 20px;
+    
+    cursor: pointer;
+   
+}
+
+
+
+.title{
+    font-size: 3vw;
+    margin-bottom: 10px;
+    letter-spacing: 0.05vw;
+}
+
+.body{
+    font-size: 1.2vw;
+    text-align: justify;
+    margin-bottom: 10px;
+    letter-spacing: 0.04vw;
+}
+
+.link{
+    font-size: 1.5vw;
+    color: #38348c;
+    margin-bottom: 10px;
+}
+
+.link:hover{
+    color: #0d00ff;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #666;
+}
+
+.imgg{
+    width: 40vw;
+    height: 20vw;
+    object-fit:cover;
+    background-color: black;
+}
